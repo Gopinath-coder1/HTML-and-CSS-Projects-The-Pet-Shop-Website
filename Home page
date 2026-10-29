@@ -1,0 +1,30 @@
+
+<header id="home">
+    <h1>Welcome to Pet Shop</h1>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#pets">Our Pets</a> |
+        <a href="#videos">Pet Videos</a> |
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Find Your Best Friend!</h2>
+
+    <p>
+        Welcome to Pet Shop!
+       Love your Animal and make friend 
+    </p>
+
+    <p>
+        Explore our website to see cute pets,
+        watch pet videos, and caring for your friends.
+    </p>
+
+    <img
+        src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=600&q=80"
+        alt="A cute golden dog"
+        width="300"
+    >

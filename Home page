@@ -1,6 +1,7 @@
 
+<!-- Home Page -->
 <header id="home">
-    <h1>Welcome to Pet Shop</h1>
+    <h1>Welcome to Pet Shop Website</h1>
 
     <nav>
         <a href="#home">Home</a> |
@@ -15,12 +16,14 @@
 
     <p>
         Welcome to Pet Shop!
-       Love your Animal and make friend 
+        Love your Pet and make a friend
+      
     </p>
 
     <p>
         Explore our website to see cute pets,
-        watch pet videos, and caring for your friends.
+        watch pet videos, and learn more about
+        caring for your furry friends.
     </p>
 
     <img
@@ -28,3 +31,52 @@
         alt="A cute golden dog"
         width="300"
     >
+
+
+<br><label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message"
+                  rows="5" cols="40"
+                  placeholder="Write your message"
+                  required></textarea>
+        <br><br>
+
+        <input type="submit" value="Send Message">
+
+    </form>
+</section>
+
+
+<section id="videos">
+    <h2>Pet Videos</h2>
+
+    <p>Watch this fun video and learn about animals!</p>
+
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.bing.com/videos/riverview/relatedvideo?q=dog+video&mid=E01D45FD58DDBFAD3B69E01D45FD58DDBFAD3B69&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCvveQAkC2cwDn5TuKWuSkCw&FORM=VIRE"
+        title="Animal video"
+        allowfullscreen>
+    </iframe>
+
+</section>
+
+<footer>
+    <h3> Pet Shop</h3>
+
+    <p>We care for pets and help them find loving homes.</p>
+
+    <p>Email: petshopwebsite@pet.com</p>
+
+    <a href="#home">Back to Top</a>
+</footer>

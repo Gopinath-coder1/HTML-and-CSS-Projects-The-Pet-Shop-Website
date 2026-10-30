@@ -1,82 +1,110 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+</head>
 
-<header id="home">
-    <h1>Welcome to Pet Shop Website</h1>
+<body>
 
-    <nav>
-        <a href="#home">Home</a> |
-        <a href="#pets">Our Pets</a> |
-        <a href="#videos">Pet Videos</a> |
-        <a href="#contact">Contact Us</a>
-    </nav>
-</header>
+    <header id="home">
+        <h1> Pet Shop</h1>
 
-<section>
-    <h2>Find Your Best Friend!</h2>
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#pets">Our Pets</a> |
+            <a href="#videos">Pet Videos</a> |
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
 
-    <p>
-        Welcome to Pet Shop!
-        Love your Pet and make a friend
-      
-    </p>
+    <hr>
+    <section>
+        <h2>Welcome to Pet shop!</h2>
 
-    <p>
-        Explore our website to see cute pets,
-        watch pet videos, and learn more about
-        caring for your furry friends.
-    </p>
+        <p>
+            Welcome to  Pet Shop.
+            We love animals and want every pet
+            to find a happy and caring home.
+        </p>
 
-    <img
-        src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=600&q=80"
-        alt="A cute golden dog"
-        width="300"
-    >
+        <p>
+            Explore our website to see cute pets and
+            caring friends.
+        </p>
+    </section>
 
+    <hr>
 
-<br><label for="name">Full Name:</label><br>
-        <input type="text" id="name" name="name"
-               placeholder="Enter your name" required>
-        <br><br>
+    <section id="pets">
+        <h2>Meet Our Pets</h2>
 
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email"
-               placeholder="Enter your email" required>
-        <br><br>
+        <p>Here are some lovely animals!</p>
 
-        <label for="message">Your Message:</label><br>
-        <textarea id="message" name="message"
-                  rows="5" cols="40"
-                  placeholder="Write your message"
-                  required></textarea>
-        <br><br>
+        <h3>Dogs</h3>
+        <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=600&q=80"
+             alt="A cute dog" width="300">
 
-        <input type="submit" value="Send Message">
+    <hr>
 
-    </form>
-</section>
+    <section id="videos">
+        <h2>Pet Videos</h2>
 
+        <p>Watch this funny video!</p>
 
-<section id="videos">
-    <h2>Pet Videos</h2>
-
-    <p>Watch this fun video and learn about animals!</p>
-
-    <iframe
-        width="560"
-        height="315"
-        src="https://www.bing.com/videos/riverview/relatedvideo?q=dog+video&mid=E01D45FD58DDBFAD3B69E01D45FD58DDBFAD3B69&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCvveQAkC2cwDn5TuKWuSkCw&FORM=VIRE"
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.bing.com/videos/riverview/relatedvideo?q=dog+video&mid=E01D45FD58DDBFAD3B69E01D45FD58DDBFAD3B69&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCvveQAkC2cwDn5TuKWuSkCw&FORM=VIRE"
         title="Animal video"
-        allowfullscreen>
-    </iframe>
+            title="Sample video"
+            allowfullscreen>
+        </iframe>
+    </section>
 
-</section>
+    <hr>
+    <section id="contact">
+        <h2>Contact Us</h2>
 
-<footer>
-    <h3> Pet Shop</h3>
+        <p>Have questions? Please contact us!</p>
 
-    <p>We care for pets and help them find loving homes.</p>
+        <form action="#" method="post">
 
-    <p>Email: petshopwebsite@pet.com</p>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+            <br><br>
 
-    <a href="#home">Back to Top</a>
-</footer>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message"
+                      rows="5" cols="40"
+                      placeholder="Write your message"
+                      required></textarea>
+            <br><br>
+
+            <input type="submit" value="Send Message">
+
+        </form>
+    </section>
+    <hr>
+    <footer>
+        <h3> Pet Shop</h3>
+
+        <p>We care for pets and help them find loving homes.</p>
+
+        <p>Email: petshopwebsite@pet.com</p>
+
+        <a href="#home">Back to Top</a>
+    </footer>
+
+</body>
+</html>
+
+
